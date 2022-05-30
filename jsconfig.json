@@ -4,9 +4,11 @@
     "module": "esnext",
     "baseUrl": "./",
     "moduleResolution": "node",
+    "sourceMap": true,
+    "allowJs": true,
     "paths": {
-      "@/*": [
-        "src/*"
+      "components/*": [
+        "src/components/*"
       ]
     },
     "lib": [
